@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title> My Travels </title>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 
+
+   <link rel="stylesheet" href="css/mystyle1.css">
+</head>
+<!--body class="container-fluid" onload="initiatePhotoLoads()">-->
+ <body class="container-fluid"> 
+   <header id="title1" class="jumbotron">
+    Our Overseas Visits
+  </header> 
+   <nav class="row navbar1 navbar-expand-sm">
+     <ul class="navbar-nav">
+       <li class="nav-item">
+         <button type="button" class="btn btn-primary" onclick="loadHome()"> Home </button>
+      </li>
+      <li class="nav-item">
+         <button type="button" class="btn btn-primary" onclick="loadRodrigues()"> Rodrigues 2008 </button>
+      </li>
+    <li class="nav-item">
+          <button type="button" class="btn btn-primary" onclick="loadSingapore()">Singapore, Malaysia, Hong Kong 2011 </button>
+      </li>
+      <li class="nav-item">
+        <button type="button" class="btn btn-primary" onclick="loadCanada1()"> Canada 2013 </button>
+      </li>
+      <li class="nav-item">
+         <button type="button" class="btn btn-primary" onclick="loadLondon()"> London 2016 </button>  
+      </li>
+      <li class="nav-item">
+         <button type="button" class="btn btn-primary" onclick="loadCanada2()"> Canada 2016 </button>
+      </li>
+   </ul>
+   </nav>
+
+  <main>
+   <article id="mymain" class="row maintext">
+   </article>
+  </main> 
+ <script src="js/oveeyen.js"> </script>
+ <!--
+ <script>
+ $(document).ready(function(){
+
+      $("#mymain").load("home.html");  
+      initiatePhotoLoads();  
+  });
+ </script>-->
+</body>
+</html>

@@ -1,0 +1,93 @@
+#title1{
+  text-align:center;
+  background-color: red;
+  font-size: 2em;
+  padding-top:5vh;
+  }
+
+
+.navbar1{
+  margin-top: 5px;
+  text-align:center;
+  font-size: 1.2em;
+  margin-left:10vw;
+  width:80vw;
+  top:22vh; 
+  margin-bottom:5vh; 
+}
+.navmenu{
+	margin-left:5px;
+}
+
+nav.navbar{
+  margin-bottom:5vh;
+}
+
+ul.navbar-nav{
+  margin-bottom:5vh;
+}
+.maintext{
+  margin-top:10px;
+  /*margin-top:25vh;*/
+}
+/*
+.photo1 {
+  float: right;	
+  margin-left:10px;
+  width: 200px;
+  height: 200px;
+}
+*/
+.photo1 {
+  width: 200px;
+  height: 200px;
+  margin-left: 5px;
+}
+.photo2{
+   width: 200px;
+  height: 200px;
+  margin-right: 5px;
+}
+.photo1A {
+  width: 200px;
+  height: 200px;
+ margin-right:5px;
+}
+.photo2A {
+  width: 200px;
+  height: 200px;
+}
+.textpart{
+   color: blue;
+   padding-left: 5px;  
+}
+.photo3 {
+  float: right;	
+  margin-left:10px;
+  width: 200px;
+ /* height: 200px;*/
+}
+.photo4 {
+  float: left;	
+  margin-right:10px;
+  width: 200px;
+ /* height: 200px;*/
+}
+
+.textpart1{
+   color: green;
+   padding-left: 5px;  
+}
+
+#mycarousel{
+  width:400px;
+  height:200px;
+  background-color: blue;
+}
+
+
+.mypic {
+  width: 300px;
+  height: 200px;
+  margin-left: 50px;
+}

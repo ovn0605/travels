@@ -14,7 +14,8 @@
   width:80vw;
   top:22vh; 
   margin-bottom:5vh; 
-}
+  }
+
 .navmenu{
 	margin-left:5px;
 }
@@ -25,6 +26,11 @@ nav.navbar{
 
 ul.navbar-nav{
   margin-bottom:5vh;
+}
+
+.nav-item{
+  margin-left:5px;
+  margin-top:5px;
 }
 .maintext{
   margin-top:10px;
@@ -90,4 +96,11 @@ ul.navbar-nav{
   width: 300px;
   height: 200px;
   margin-left: 50px;
+}
+
+#mytoggler{
+  background-color: rgba(0,0,255);
+  width: 2em;
+  height: 2em;
+  padding-top:25%;
 }

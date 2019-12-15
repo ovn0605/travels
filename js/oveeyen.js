@@ -42,19 +42,19 @@ function LoadPhotoFiles(place,num){
 function LoadPhotos(Placename,number){
   //alert("In LondonPhotos");
   var fileNameArr=LoadPhotoFiles(Placename,number);
-  console.log("In Load Photos");
-  console.log(Placename+ number);
+  //console.log("In Load Photos");
+  //console.log(Placename+ number);
   
   //After obtaining the photofiles,
   //Build the carousel items
   var myFrame=document.createElement("div");
   var placeId=Placename + "PhotoSpace";
-  console.log("PlaceId="+placeId);
+ // console.log("PlaceId="+placeId);
   myFrame.setAttribute("id",placeId);
   myFrame.classList.add("carousel-inner");
   for (counter in fileNameArr){
     var filename=fileNameArr[counter]+".jpg";
-    console.log(filename);
+    //console.log(filename);
     var element=document.createElement("div");
         element.classList.add("carousel-item");
         if (counter==0){
@@ -68,7 +68,7 @@ function LoadPhotos(Placename,number){
       myFrame.appendChild(element);
   }
 
-  console.log("leaving loadphotos");
+  //console.log("leaving loadphotos");
       return myFrame;
 }
 
@@ -77,30 +77,30 @@ function initiatePhotoLoads(){
   SingaporeFrame=LoadPhotos("Singapore",13)
   MalaysiaFrame=LoadPhotos("Malaysia",11);
   //var dummyElem=document.createElement("div");
-   console.log("In - Initiate photo loads Going to obtain carousel element");
+  // console.log("In - Initiate photo loads Going to obtain carousel element");
   var element=document.getElementById("mycarousel");
   //$("#mycarousel").append(LondonFrame);
  // $("#mycarousel").append($("#LondonPhotoSpace"));
-  console.log("no of elements="+$("#mycarousel").length);
-  console.log("obtained carousel element");
+ // console.log("no of elements="+$("#mycarousel").length);
+//  console.log("obtained carousel element");
     element.appendChild(MalaysiaFrame);
     //element.html(LondonFrame);
-    console.log("Have assigned inner Element");
+   // console.log("Have assigned inner Element");
   //element.appendChild(dummyElem);
  
-    console.log("appended London Frame");
+   // console.log("appended London Frame");
   }
 
 function londonPhotos(){
-  console.log("In London Photos");
+  //console.log("In London Photos");
    var element=document.getElementById("mycarousel");
-    console.log("Obtained Carousel Element");
-    console.log("length="+$("#mycarousel").length);
+   // console.log("Obtained Carousel Element");
+    //console.log("length="+$("#mycarousel").length);
    var node=element.lastChild;
-     console.log("Obtained lastchild");
+   //  console.log("Obtained lastchild");
    element.removeChild(node);
    element.appendChild(LondonFrame);
-    console.log("Leaving London Photos");
+  //  console.log("Leaving London Photos");
 
 }
 function SingaporePhotos(){
@@ -114,10 +114,10 @@ function SingaporePhotos(){
 function MalaysiaPhotos(){
    var element=document.getElementById("mycarousel");
    var node=element.lastChild;
-   console.log("In Malasia Photos-Going to remove node");
+ //  console.log("In Malasia Photos-Going to remove node");
    element.removeChild(node);
    element.appendChild(MalaysiaFrame);
- console.log("leaving Malaysia Photos");
+// console.log("leaving Malaysia Photos");
 }
 
 function loadHome(){
